@@ -1,8 +1,19 @@
-.amenu {
-	min-height:80vh !important;
-	padding:10px;
-	margin-top:1rem !important;
+main{
+  margin-top: 8vh;
 }
-.mission {
-	margin-top:10px;
+.interest{
+  margin-top: 8px !important;
+}
+.assoc-rec{
+  display: inline-flex;
+  margin-top: 12px !important;
+}
+.timeline{
+  padding: 10px !important;
+}
+.mission{
+  margin-top: 10px;
+}
+.badge{
+  color: #4183c4;
 }
