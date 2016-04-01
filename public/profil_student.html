@@ -1,24 +1,137 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>PES</title>
 
-    <link rel="stylesheet" type="text/css" href="semantic/css/semantic.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-  </head>
-  <body>
-    <header>
+<head>
+  <meta charset="utf-8">
+  <title>PES</title>
 
-    </header>
-    <main>
+  <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css" />
 
-    </main>
-    <footer>
+  <link rel="stylesheet" type="text/css" href="semantic/components/reset.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/site.css">
 
-    </footer>
+  <link rel="stylesheet" type="text/css" href="semantic/components/container.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/grid.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/header.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/image.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/menu.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/divider.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/segment.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/button.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/list.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/icon.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/transition.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/icon.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
 
-    <script type="text/javascript" src="js/jquery-2.2.2.min.js" />
-    <script type="text/javascript" src="semantic/js/semantic.min.js" />
-  </body>
+<body>
+  <header>
+    <div class="ui large top fixed hidden menu">
+      <div class="ui container">
+        <a class="active item">Home</a>
+        <a class="item">Work</a>
+        <div class="right menu">
+          <div class="item">
+            <a class="ui button">Log in</a>
+          </div>
+          <div class="item">
+            <a class="ui primary button">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="ui stackable grid container">
+
+      <div class="ui vertical menu amenu four wide column">
+        <div class="ui items">
+          <div class="item">
+            <div class="content">
+              <img class="ui circular small centered image" src="http://lorempixel.com/80/80/" />
+              <h4 class="ui horizontal divider">Emily Ratashowsky</h4>
+              <span class="">22 ans</span>
+            </div>
+          </div>
+          <div class="item">
+            <label class="ui header">Badge</label>
+            <div class="content">
+              <i class="certificate icon big"></i>
+              <i class="certificate icon big"></i>
+              <i class="certificate icon big"></i>
+              <i class="certificate icon big"></i>
+              <i class="certificate icon big"></i>
+            </div>
+          </div>
+          <div class="item">
+            <label class="ui header">Ecole</label>
+            <div class="content">
+              <p>Université Jean jaurès</p>
+              <h4 class="ui header">Etude en cours</h4>
+              <p>Licences Informatique</p>
+            </div>
+          </div>
+          <div class="item">
+            <label class="ui header">Compétences</label>
+            <div class="content">
+              <div class="ui green progress" id="competence1">
+                <div class="bar"></div>
+              <div class="label">Informatique</div>
+              </div>
+            </div>
+            <div class="content">
+              <div class="ui green progress" id="competence2">
+                <div class="bar"></div>
+              <div class="label">Travail d'équipe</div>
+              </div>
+            </div>
+            <div class="content">
+              <div class="ui green progress" id="competence3">
+                <div class="bar"></div>
+              <div class="label">Animation</div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <label class="ui header">Centres d'intérêts</label>
+            <div class="content">
+              <div class="ui green label interest">Environnement</div>
+              <div class="ui red label interest">Informatique</div>
+              <div class="ui orange label interest">Humanitaire</div>
+            </div>
+          </div>
+          <div class="item">
+            <label class="ui header">Recommandations</label>
+            <div class="content">
+              <img class="ui circular mini left floated image" src="http://lorempixel.com/80/80/" />
+              <span class="text assoc-rec">Les Restos du coeur</span>
+            </div>
+            <div class="content">
+              <img class="ui circular mini left floated image" src="http://lorempixel.com/80/80/" />
+              <span class="text assoc-rec">Sea Shepherd</span>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+      <div class="twelve wide column">
+        <div class="ui card red fluid">
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+
+  </footer>
+
+  <script type="text/javascript" src="js/jquery-2.2.2.min.js" ></script>
+  <script type="text/javascript" src="semantic/semantic.min.js" ></script>
+  <script type="text/javascript" src="js/app.js" ></script>
+</body>
+
 </html>
