@@ -1,3 +1,4 @@
+
 main{
   margin-top: 8vh;
 }
@@ -11,9 +12,18 @@ main{
 .timeline{
   padding: 10px !important;
 }
-.mission{
-  margin-top: 10px;
-}
 .badge{
   color: #4183c4;
+}
+.amenu {
+	min-height:80vh !important;
+	padding:10px;
+	margin-top:1rem !important;
+}
+.mission {
+	margin-top:10px;
+}
+.voirplus {
+	text-align: center;
+	margin-top: 10px;
 }
