@@ -1,4 +1,7 @@
 $(function(){
+	$('.dropdown').dropdown();
+
+	//Isotrope.js
 	var $grid = $('.iso-grid').isotope({
 	  itemSelector: '.grid-item',
 	  layoutMode: 'fitRows',

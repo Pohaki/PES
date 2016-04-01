@@ -1,24 +1,213 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>PES</title>
+<head>
+	<meta charset="utf-8">
+	<title>PES</title>
 
-    <link rel="stylesheet" type="text/css" href="semantic/css/semantic.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-  </head>
-  <body>
-    <header>
+	<link rel="stylesheet" type="text/css" href="semantic/semantic.min.css" />
 
-    </header>
-    <main>
+	<link rel="stylesheet" type="text/css" href="semantic/components/reset.css">
+	<link rel="stylesheet" type="text/css" href="semantic/components/site.css">
 
-    </main>
-    <footer>
+	<link rel="stylesheet" type="text/css" href="semantic/components/container.css">
+	<link rel="stylesheet" type="text/css" href="semantic/components/grid.css">
+	<link rel="stylesheet" type="text/css" href="semantic/components/header.css">
+	<link rel="stylesheet" type="text/css" href="semantic/components/image.css">
+	<link rel="stylesheet" type="text/css" href="semantic/components/menu.css">
+	<link rel="stylesheet" type="text/css" href="semantic/components/divider.css">
+	<link rel="stylesheet" type="text/css" href="semantic/components/dropdown.css">
+	<link rel="stylesheet" type="text/css" href="semantic/components/segment.css">
+	<link rel="stylesheet" type="text/css" href="semantic/components/button.css">
+	<link rel="stylesheet" type="text/css" href="semantic/components/list.css">
+	<link rel="stylesheet" type="text/css" href="semantic/components/icon.css">
+	<link rel="stylesheet" type="text/css" href="semantic/components/sidebar.css">
+	<link rel="stylesheet" type="text/css" href="semantic/components/transition.css">
+	<link rel="stylesheet" type="text/css" href="semantic/components/icon.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
 
-    </footer>
+	<!-- Following Menu -->
+	<div class="ui large top fixed hidden menu">
+		<div class="ui container">
+			<a class="active item">PES</a>
+			<div class="right menu">
+				<div class="item">
+					<a class="ui button">Log in</a>
+				</div>
+				<div class="item">
+					<a class="ui primary button">Sign Up</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 
-    <script type="text/javascript" src="js/jquery-2.2.2.min.js" />
-    <script type="text/javascript" src="semantic/js/semantic.min.js" />
-  </body>
+	<!-- Page Contents -->
+	<div class="pusher">
+
+		<div class="ui vertical stripe segment">
+			<div class="ui stackable grid container">
+
+				<div class="ui vertical menu amenu four wide column">
+					<div class="item">
+						<h4 class="ui header">Catégories</h4>
+						<form action="" class="ui form">
+							<select class="ui dropdown">
+							  <option value="">Catégories</option>
+							  <option value="0">Informatique</option>
+							  <option value="2">Humanitaire</option>
+							  <option value="3">Social</option>
+							  <option value="4">Environnement</option>
+							</select>
+						</form>
+					</div>
+					<div class="item">
+						<h4 class="ui header">Localisation</h4>
+						<form action="" class="ui form">
+							<div class="field">
+								<label for="">Code postal</label>
+								<input type="text" placeholder="31400">
+							</div>
+						</form>
+					</div>
+					<div class="item">
+						<h4 class="ui header">Type de mission</h4>
+						<form action="" class="ui form">
+							<div class="inline field">
+								<div class="ui checkbox">
+									<input type="checkbox">
+									<label for="">Benevolat</label>
+								</div>
+							</div>
+
+							<div class="inline field">
+								<div class="ui checkbox">
+									<input type="checkbox">
+									<label for="">Service civique</label>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="item">
+						<h4 class="ui header">Durée de la mission</h4>
+						<form action="" class="ui form">
+							<div class="inline field">
+								<div class="ui checkbox">
+									<input type="checkbox">
+									<label for="">Ponctuelle</label>
+								</div>
+							</div>
+
+							<div class="inline field">
+								<div class="ui checkbox">
+									<input type="checkbox">
+									<label for="">- 6 mois</label>
+								</div>
+							</div>
+							<div class="inline field">
+								<div class="ui checkbox">
+									<input type="checkbox">
+									<label for="">+ de 6 mois</label>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="item">
+						<h4 class="ui header">Compétences</h4>
+						<form action="" class="ui form">
+							<div class="inline field">
+								<div class="ui checkbox">
+									<input type="checkbox">
+									<label for="">Informatique/Média</label>
+								</div>
+							</div>
+
+							<div class="inline field">
+								<div class="ui checkbox">
+									<input type="checkbox">
+									<label for="">Animation</label>
+								</div>
+							</div>
+							<div class="inline field">
+								<div class="ui checkbox">
+									<input type="checkbox">
+									<label for="">Travail d'équipe</label>
+								</div>
+							</div>
+							<div class="inline field">
+								<div class="ui checkbox">
+									<input type="checkbox">
+									<label for="">Design/Communication</label>
+								</div>
+							</div>
+						</form>
+						<div class="voirplus">
+							<a href="">Voir +</a>
+						</div>
+					</div>
+				</div>
+				<div class="twelve wide column">
+					<div class="ui card red fluid">
+						<div class="content">
+							<img class="ui left floated circular mini image" src="http://lorempixel.com/80/80/">
+							<span class="right floated time">Il y a deux jours</span>
+							<div class="header">Association Réseaux LAN Mirepoix</div>
+							<div class="meta">
+								<span class="category">Informatique - Jeux - Réseaux</span>
+							</div>
+						</div>
+						<div class="content">
+							<h4 class="header">Mise en place d'un serveur DHCP</h4>
+							<div class="ui red label tiny">Bénévolat</div>
+							<div class="ui violet label tiny">Ponctuel</div>
+							<div class="description mission">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mollis eget metus a vulputate. Curabitur a dui vel orci mollis interdum. Ut mauris neque, luctus et enim id, eleifend vestibulum purus. Suspendisse in luctus erat. Quisque at justo justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porttitor porta augue tempor vestibulum. Ut auctor nulla vitae eleifend accumsan. Vestibulum vestibulum ipsum neque, sit amet blandit dolor rhoncus sed.</div>
+						</div>
+					</div>
+					<div class="ui card orange fluid">
+						<div class="content">
+							<img class="ui left floated circular mini image" src="http://lorempixel.com/80/80/">
+							<span class="right floated time">Il y a trois jours</span>
+							<div class="header">Les Restos du Coeur</div>
+							<div class="meta">
+								<span class="category">Humanitaire</span>
+							</div>
+						</div>
+						<div class="content">
+							<h4 class="header">Distribution de nourriture</h4>
+							<div class="ui green label tiny">Service Civique</div>
+							<div class="ui blue label tiny">6 mois</div>
+							<div class="description mission">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mollis eget metus a vulputate. Curabitur a dui vel orci mollis interdum. Ut mauris neque, luctus et enim id, eleifend vestibulum purus. Suspendisse in luctus erat. Quisque at justo justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porttitor porta augue tempor vestibulum. Ut auctor nulla vitae eleifend accumsan. Vestibulum vestibulum ipsum neque, sit amet blandit dolor rhoncus sed.</div>
+						</div>
+					</div>
+					<div class="ui card green fluid">
+						<div class="content">
+							<img class="ui left floated circular mini image" src="http://lorempixel.com/80/80/">
+							<span class="right floated time">Il y a deux jours</span>
+							<div class="header">Sea Sheperd</div>
+							<div class="meta">
+								<span class="category">Environnement</span>
+							</div>
+						</div>
+						<div class="content">
+							<h4 class="header">Sauver les baleines</h4>
+							<div class="ui green label tiny">Service Civique</div>
+							<div class="ui blue label tiny">6 mois</div>
+							<div class="description mission">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mollis eget metus a vulputate. Curabitur a dui vel orci mollis interdum. Ut mauris neque, luctus et enim id, eleifend vestibulum purus. Suspendisse in luctus erat. Quisque at justo justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porttitor porta augue tempor vestibulum. Ut auctor nulla vitae eleifend accumsan. Vestibulum vestibulum ipsum neque, sit amet blandit dolor rhoncus sed.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ui inverted vertical footer segment">
+			<div class="ui container">
+				<p>Plateforme d'engagement solidaire - 2016</p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+	<script type="text/javascript" src="semantic/semantic.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
 </html>
