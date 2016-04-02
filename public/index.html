@@ -29,15 +29,10 @@
   <!-- Following Menu -->
   <div class="ui large top fixed hidden menu">
     <div class="ui container">
-      <a class="active item">Home</a>
-      <a class="item">Work</a>
+      <a class="active item">PSE</a>
       <div class="right menu">
-        <div class="item">
-          <a class="ui button">Log in</a>
-        </div>
-        <div class="item">
-          <a class="ui primary button">Sign Up</a>
-        </div>
+        <a class="item">Log in</a>
+        <a class="item">Sign Up</a>
       </div>
     </div>
   </div>
@@ -50,39 +45,153 @@
         <h1 class="ui inverted header">
           Plateforme de l'engagement solidaire 
         </h1>
-        <div class="ui huge primary button">Get Started</div>
+        <form action="search.html" class="ui form">
+          <div class="two fields">
+            <div class="field">
+              <input type="text" placeholder="Code Postal">
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Domaine">
+            </div>
+          </div>
+          <input type="submit" class="ui huge primary button" value="Get Started">
+        </form>
       </div>
 
     </div>
 
-    <div class="ui vertical stripe segment">
-      <div class="ui middle aligned stackable grid container">
-        <div class="row">
-          <div class="eight wide column">
-            <h3 class="ui header">We Help Companies and Companions</h3>
-            <p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
-            <h3 class="ui header">We Make Bananas That Can Dance</h3>
-            <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>
-          </div>
-          <div class="six wide right floated column">
-            <img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image">
-          </div>
+      <div class="ui middle aligned stackable container">
+        <div class="ui twelve items secondary pointing menu">
+          <a class="tabFilter grey item" data-filter="*">Tout</a>
+          <a class="tabFilter orange item" data-filter=".orange">Humanitaire</a>
+          <a class="tabFilter green item" data-filter=".green">Environnement</a>
+          <a class="tabFilter blue item" data-filter=".blue">Social</a>
+          <a class="tabFilter active red item" data-filter=".red">Numérique</a>
         </div>
-        <div class="row">
-          <div class="center aligned column">
-            <a class="ui huge button">Check Them Out</a>
+
+        <div class="ui stackable grid">
+          <div class="ui twelve wide column">
+            <h3>Les dernières Actus</h3>
+            <div class="ui one cards iso-grid">
+              <a class="grid-item fluid red card" href="#">
+                <div class="content">
+                  <div class="header">Conférence sur les métiers du web</div>
+                  <div class="meta">
+                    <span class="right floated time">Il y a 2 jours</span>
+                    <span class="category">Numérique</span>
+                  </div>
+                  <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit saepe obcaecati reprehenderit, esse doloribus quidem, distinctio. Excepturi repellat minima sapiente quo nisi assumenda rerum amet doloremque, nostrum aspernatur quisquam, nobis?</p>
+                  </div>
+                </div>
+                <div class="extra content">
+                  <div class="right floated author"><img class="ui avatar image" src="images/avatar/small/matt.jpg"> Assos du web </div>
+                </div>
+              </a>
+              <a class="grid-item fluid orange card" href="#">
+                <div class="content">
+                  <div class="header">Distribution de colis alimentaires</div>
+                  <div class="meta">
+                    <span class="right floated time">Il y a 3 jours</span>
+                    <span class="category">Humanitaire</span>
+                    <span class="category">Solidarité</span>
+                  </div>
+                  <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero corporis repellendus labore ipsam neque porro deleniti adipisci dolorem consequuntur facilis magni alias nisi, laudantium quas, doloremque, quam architecto? Quis, veritatis.</p>
+                  </div>
+                </div>
+                <div class="extra content">
+                  <div class="right floated author"><img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Restos diu coeur </div>
+                </div>
+              </a>
+              <a class="grid-item fluid green card" href="#">
+                <div class="content">
+                  <div class="header">Grande opération de collecte des déchets</div>
+                  <div class="meta">
+                    <span class="right floated time">Il y a 5 jours</span>
+                    <span class="category">Ecologie</span>
+                  </div>
+                  <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque et ducimus at repudiandae iste, dolores minima. Nisi minus, distinctio quos quia quasi assumenda architecto doloribus quas dolor mollitia numquam optio.</p>
+                  </div>
+                </div>
+                <div class="extra content">
+                  <div class="right floated author"><img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Verte ville </div>
+                </div>
+              </a>
+              <a class="grid-item fluid green card" href="#">
+                <div class="content">
+                  <div class="header">Les énergies renouvellables</div>
+                  <div class="meta">
+                    <span class="right floated time">Il y a 6 jours</span>
+                    <span class="category">Ecologie</span>
+                    <span class="category">Conférence</span>
+                  </div>
+                  <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque et ducimus at repudiandae iste, dolores minima. Nisi minus, distinctio quos quia quasi assumenda architecto doloribus quas dolor mollitia numquam optio.</p>
+                  </div>
+                </div>
+                <div class="extra content">
+                  <div class="right floated author"><img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Eo'terre </div>
+                </div>
+              </a>
+              <a class="grid-item fluid blue card" href="#">
+                <div class="content">
+                  <div class="header">Les ateliers du partage</div>
+                  <div class="meta">
+                    <span class="right floated time">Il y a 6 jours</span>
+                    <span class="category">Social</span>
+                    <span class="category">Vie de quartier</span>
+                  </div>
+                  <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus rem distinctio esse quo molestiae nulla nisi numquam, laudantium non aperiam dolorem assumenda repellendus dolores voluptates dicta, earum, qui pariatur nemo.</p>
+                  </div>
+                </div>
+                <div class="extra content">
+                  <div class="right floated author"><img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Asso du coin </div>
+                </div>
+              </a>
+              <a class="grid-item fluid orange card" href="#">
+                <div class="content">
+                  <div class="header">Don du sang</div>
+                  <div class="meta">
+                    <span class="right floated time">Il y a 9 jours</span>
+                    <span class="category">Humanitaire</span>
+                    <span class="category">Santé</span>
+                  </div>
+                  <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque et ducimus at repudiandae iste, dolores minima. Nisi minus, distinctio quos quia quasi assumenda architecto doloribus quas dolor mollitia numquam optio.</p>
+                  </div>
+                </div>
+                <div class="extra content">
+                  <div class="right floated author"><img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Asso santé </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="four wide column">
+            <h3>Les Missions</h3>
+            <div class="ui one cards iso-grid">
+              <div class="grid-item card">
+                <div class="content">
+                  <div class="header">Accompagner un jeune</div>
+                  <div class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias eius nulla neque magni adipisci quos ullam ipsa iusto quae reiciendis numquam atque quibusdam debitis harum perspiciatis, assumenda fugiat quis vel!</div>
+                </div>
+                <div class="ui bottom attached button"><i class="add icon"></i> En savoir plus </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
     <div class="ui inverted vertical footer segment">
       <div class="ui container">
         <p>Plateforme d'engagement solidaire - 2016</p>
       </div>
     </div>
   </div>
-  <script type="text/javascript" src="js/jquery-2.2.2.min.js" />
-  <script type="text/javascript" src="semantic/semantic.min.js" />
+  <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+  <script type="text/javascript" src="semantic/semantic.min.js"></script>
+  <script type="text/javascript" src="js/isotope.pkgd.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
