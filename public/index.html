@@ -31,8 +31,8 @@
     <div class="ui container">
       <a class="active item">PSE</a>
       <div class="right menu">
-        <a class="item">Log in</a>
-        <a class="item">Sign Up</a>
+        <a class="item" href="profil_student.html"><div class="left floated author"><img class="ui avatar  image" src="http://lorempixel.com/80/80/">Mon profil</div></a>
+        <a class="item">Deconnexion</a>
       </div>
     </div>
   </div>
@@ -40,28 +40,26 @@
   <!-- Page Contents -->
   <div class="pusher">
     <div class="ui inverted vertical masthead center aligned segment">
-
+      <div class="overlay"></div>
       <div class="ui text container">
         <h1 class="ui inverted header">
           Plateforme de l'engagement solidaire 
         </h1>
-        <form action="search.html" class="ui form">
-          <div class="two fields">
-            <div class="field">
-              <input type="text" placeholder="Code Postal">
+        <h2 class="accroche">L'interface idéale pour agir concrètement dans ta ville et valoriser ton engagement associatif !</h2>
+        <div class="inputsearch">
+          <form action="search.html" class="ui form">
+            <div class="ui action input">
+              <input placeholder="Ex: 31400, social, numérique..." type="text">
+              <div class="ui blue button">Search</div>
             </div>
-            <div class="field">
-              <input type="text" placeholder="Domaine">
-            </div>
-          </div>
-          <input type="submit" class="ui huge primary button" value="Get Started">
-        </form>
+          </form>
+        </div>
       </div>
 
     </div>
-
+    <div class="ui vertical stripe segment homesection">
       <div class="ui middle aligned stackable container">
-        <div class="ui twelve items secondary pointing menu">
+        <div class="ui twelve items secondary pointing menu catmenu">
           <a class="tabFilter grey item" data-filter="*">Tout</a>
           <a class="tabFilter orange item" data-filter=".orange">Humanitaire</a>
           <a class="tabFilter green item" data-filter=".green">Environnement</a>
@@ -71,7 +69,7 @@
 
         <div class="ui stackable grid">
           <div class="ui twelve wide column">
-            <h3>Les dernières Actus</h3>
+            <h3 class="ui centered header hometitle">Les dernières Actus</h3>
             <div class="ui one cards iso-grid">
               <a class="grid-item fluid red card" href="#">
                 <div class="content">
@@ -85,7 +83,7 @@
                   </div>
                 </div>
                 <div class="extra content">
-                  <div class="right floated author"><img class="ui avatar image" src="images/avatar/small/matt.jpg"> Assos du web </div>
+                  <div class="left floated author"><img class="ui avatar image" src="http://lorempixel.com/80/80/"> Assos du web </div>
                 </div>
               </a>
               <a class="grid-item fluid orange card" href="#">
@@ -101,7 +99,7 @@
                   </div>
                 </div>
                 <div class="extra content">
-                  <div class="right floated author"><img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Restos diu coeur </div>
+                  <div class="left floated author"><img class="ui avatar image" src="http://lorempixel.com/80/80/"> Restos du coeur </div>
                 </div>
               </a>
               <a class="grid-item fluid green card" href="#">
@@ -116,7 +114,7 @@
                   </div>
                 </div>
                 <div class="extra content">
-                  <div class="right floated author"><img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Verte ville </div>
+                  <div class="left floated author"><img class="ui avatar image" src="http://lorempixel.com/80/80/"> Verte ville </div>
                 </div>
               </a>
               <a class="grid-item fluid green card" href="#">
@@ -132,7 +130,7 @@
                   </div>
                 </div>
                 <div class="extra content">
-                  <div class="right floated author"><img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Eo'terre </div>
+                  <div class="left floated author"><img class="ui avatar image" src="http://lorempixel.com/80/80/"> Eo'terre </div>
                 </div>
               </a>
               <a class="grid-item fluid blue card" href="#">
@@ -148,7 +146,7 @@
                   </div>
                 </div>
                 <div class="extra content">
-                  <div class="right floated author"><img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Asso du coin </div>
+                  <div class="left floated author"><img class="ui avatar image" src="http://lorempixel.com/80/80/"> Asso du coin </div>
                 </div>
               </a>
               <a class="grid-item fluid orange card" href="#">
@@ -164,25 +162,35 @@
                   </div>
                 </div>
                 <div class="extra content">
-                  <div class="right floated author"><img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Asso santé </div>
+                  <div class="left floated author"><img class="ui avatar image" src="http://lorempixel.com/80/80/"> Asso santé </div>
                 </div>
               </a>
             </div>
           </div>
           <div class="four wide column">
-            <h3>Les Missions</h3>
-            <div class="ui one cards iso-grid">
-              <div class="grid-item card">
-                <div class="content">
-                  <div class="header">Accompagner un jeune</div>
-                  <div class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias eius nulla neque magni adipisci quos ullam ipsa iusto quae reiciendis numquam atque quibusdam debitis harum perspiciatis, assumenda fugiat quis vel!</div>
+            <h3 class="ui centered header hometitle">Les Missions</h3>
+            <div class="ui card red fluid">
+              <div class="content">
+                <img class="ui left floated circular mini image" src="http://lorempixel.com/80/80/">
+                <div class="header">Association Réseaux LAN Mirepoix</a></div>
+                <div class="meta">
+                  <span class="category">Informatique - Jeux - Réseaux</span>
                 </div>
-                <div class="ui bottom attached button"><i class="add icon"></i> En savoir plus </div>
+              </div>
+              <div class="content">
+                <h4 class="header"><a href="">Mise en place d'un serveur DHCP</a></h4>
+                <div class="ui red label tiny">Bénévolat</div>
+                <div class="ui violet label tiny">Ponctuel</div>
+                <div class="description mission">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mollis eget metus a vulputate. Curabitur a dui vel orci mollis interdum.</div>
+                <a class="ui tiny green right labeled icon button inverted">
+                  En savoir <i class="add icon"></i>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     <div class="ui inverted vertical footer segment">
       <div class="ui container">
         <p>Plateforme d'engagement solidaire - 2016</p>
