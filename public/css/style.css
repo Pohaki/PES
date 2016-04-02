@@ -30,6 +30,43 @@
 .recherche a {
 	color:inherit;
 }
+.inputsearch {
+	width:400px;
+	margin:0 auto;
+}
+.accroche {
+	margin-bottom:35px;
+	z-index:1000 !important;
+}
+.entete {
+	z-index:1000 !important;
+}
+.masthead {
+	background-image: url(../img/download.jpeg);
+	background-size: cover;
+	z-index:0;
+}
+.overlay {
+	width:100%;
+	background-color:rgba(0,0,0,0.5);
+	height:600px;
+	position:absolute;
+	top:0;
+	z-index: -1;
+}
+.hometitle {
+	margin:1em 0 !important;
+}
+.catmenu {
+	font-size: 20px;
+}
+.homesection {
+	margin-top: 20px !important;
+	padding-top:0px !important;
+}
 .event{
   margin: 10px 0px;
+}
+.name-assoc{
+	margin: 5px 0px !important;
 }
